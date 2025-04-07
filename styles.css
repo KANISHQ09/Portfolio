@@ -588,6 +588,9 @@ img {
 
 /* Responsive Styles */
 @media screen and (max-width: 992px) {
+    html{
+        overflow-x: hidden;
+    }
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -608,6 +611,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
     .hamburger {
         display: block;
     }
@@ -661,6 +667,9 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+    html{
+        overflow-x: hidden;
+    }
     .hero-content .title {
         font-size: 2rem;
     }
